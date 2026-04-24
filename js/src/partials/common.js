@@ -34,7 +34,7 @@ export const inputBtnsNumberControl = () => {
   }
 };
 
-const COMPARE_VALS = [">"];
+const COMPARE_VALS = [">", "<", ">=", "<=", "="];
 
 const addFiltersBlock = () => {
   const filtersBlock = document.querySelector(".common__filters__block");
@@ -88,7 +88,7 @@ const addFiltersBlock = () => {
     filtersBlock.removeChild(wrapper);
   });
 
-  filtersSelect.disabled = true;
+  // filtersSelect.disabled = true;
 
   wrapper.appendChild(beforeInput);
   wrapper.appendChild(filtersSelect);
