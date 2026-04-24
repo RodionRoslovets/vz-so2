@@ -177,10 +177,10 @@ body {
   border-radius: 0.625rem;
 }
 
-.common__select:disabled {
+/* .common__select:disabled {
   opacity: 1;
   color: var(--black);
-}
+} */
 
 .common__input:focus {
   outline: none;
